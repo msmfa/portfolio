@@ -11,7 +11,10 @@ function Header() {
         </div>
         <p className="header-text">
           I build high quality web based solutions to business and society's
-          problems such as these.{" "}
+          problems such as{" "}
+          <a className="header-text-link" href="https://www.google.com">
+            these.
+          </a>{" "}
         </p>
       </div>
     </>

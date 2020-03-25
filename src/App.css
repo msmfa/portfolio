@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
 .about-container {
   border: 1px solid red;
   display: flex;
@@ -30,6 +36,7 @@
   background-color: rgb(236, 255, 238);
   color: green;
   font-family: "Roboto Mono", monospace;
+  margin-bottom: 40vh;
 }
 
 .header-container {
@@ -43,6 +50,9 @@
 .header-middle {
   font-size: 2.6em;
 }
+.header-text-link {
+  color: black;
+}
 .header-bottom {
   font-size: 1.6em;
   color: rgb(102, 102, 102);
@@ -52,4 +62,40 @@
 .header-text {
   margin-top: 1em;
   font-family: "Playfair Display", serif;
+}
+
+.project-covid-image {
+  width: 45vw;
+  height: 25vw;
+  -webkit-box-shadow: -9px 10px 11px -9px rgba(219, 219, 219, 1);
+  -moz-box-shadow: -9px 10px 11px -9px rgba(219, 219, 219, 1);
+  box-shadow: -9px 10px 11px -9px rgba(219, 219, 219, 1);
+  z-index: 0;
+}
+.project-container {
+  display: flex;
+  width: 75vw;
+  margin-bottom: 10rem;
+}
+
+.project-title {
+}
+
+.project-aside {
+  font-size: 0.9em;
+  margin-left: -2em;
+  background-color: white;
+  z-index: 10;
+  height: 40vh;
+  width: 50vw;
+  text-align: left;
+  padding: 0.8em;
+  margin-top: -0.5em;
+  -webkit-box-shadow: 6px 9px 15px 0px rgba(232, 232, 232, 1);
+  -moz-box-shadow: 6px 9px 15px 0px rgba(232, 232, 232, 1);
+  box-shadow: 6px 9px 15px 0px rgba(232, 232, 232, 1);
+  z-index: 0;
+  background-color: rgb(255, 255, 255);
+  color: rgb(100, 100, 100);
+  font-family: "San Francisco";
 }
