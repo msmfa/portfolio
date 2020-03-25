@@ -1,0 +1,58 @@
+.about-container {
+  border: 1px solid red;
+  display: flex;
+  width: 70vw;
+  margin: auto;
+}
+
+.about-text {
+}
+
+.project-container {
+  width: 70vw;
+  margin: auto;
+  margin-top: 5em;
+}
+.line {
+  border: 0.7px solid rgb(129, 129, 129);
+  background-color: rgb(129, 129, 129);
+
+  margin-left: 0.55em;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+}
+.github {
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  bottom: 7em;
+}
+.about-title {
+  width: 70vw;
+  margin: auto;
+  margin-top: 50vh;
+  border: 1px solid red;
+}
+
+.button-container button {
+  border: 1px solid red;
+  margin-left: 8rem;
+  width: 105px;
+  height: 45px;
+}
+
+.header-container {
+  margin: 5em 0 3em 8em;
+  width: 70vw;
+}
+.header-top {
+}
+.header-middle {
+  font-size: 2.5em;
+}
+.header-bottom {
+  font-size: 1.4em;
+}
+.header-text {
+}

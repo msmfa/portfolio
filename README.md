@@ -7,6 +7,7 @@ First iteration of my portfolio
 - Mobile Responsive
 - Burger Nav bar
 - Tracking of visits and locations
+- Favicon
 
 ### General Requirements
 
@@ -24,3 +25,7 @@ First iteration of my portfolio
 - Firebase?
 - Netlify?
 - Jekyll?
+
+### Components
+
+- NavBar

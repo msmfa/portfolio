@@ -1,12 +1,14 @@
 import React from "react";
+import GithubIcon from "./IMG/github-icon.png";
 
 function Links() {
   return (
     <>
       <ul>
-        <li>Github</li>
-        <li>CodeWars</li>
-        <li>Third Link</li>
+        <li>
+          <img className="github" src={GithubIcon} alt="github"></img>
+          <div className="line"></div>
+        </li>
       </ul>
     </>
   );
