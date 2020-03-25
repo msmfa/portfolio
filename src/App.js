@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/Nav.css";
 import "./App.css";
+import "./css/Links.css";
 
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
