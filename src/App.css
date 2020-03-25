@@ -38,15 +38,18 @@
 }
 .header-top {
   color: rgb(83, 83, 83);
+  font-family: "Playfair Display", serif;
 }
 .header-middle {
-  font-size: 2.5em;
+  font-size: 2.6em;
 }
 .header-bottom {
-  font-size: 1.4em;
+  font-size: 1.6em;
   color: rgb(102, 102, 102);
   margin-top: -0.2em;
+  font-family: "Playfair Display", serif;
 }
 .header-text {
   margin-top: 1em;
+  font-family: "Playfair Display", serif;
 }

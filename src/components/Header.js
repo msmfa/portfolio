@@ -10,8 +10,8 @@ function Header() {
           I'm a software engineer from London.
         </div>
         <p className="header-text">
-          I'm a software engineer based in London. I like building high quality
-          web based based solutions to business and society's problems{" "}
+          I build high quality web based solutions to business and society's
+          problems such as these.{" "}
         </p>
       </div>
     </>
