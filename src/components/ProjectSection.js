@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Covid from "./IMG/corona-app-screenshot.png";
+import GithubIcon from "./IMG/github-icon.png";
 
 class ProjectSection extends Component {
   render() {
@@ -34,17 +35,27 @@ class ProjectSection extends Component {
               </ul>
             </div>
             <div className="project-links-icons">
-              <ul>
-                <li className="project-view-link">
-                  <a
-                    href="https://msmfa.github.io/corona-dashboard/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    VIEW PROJECT
-                  </a>
-                </li>
-              </ul>
+              <a
+                href="https://github.com/msmfa/corona-dashboard"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="project-github-link"
+                  src={GithubIcon}
+                  alt="github"
+                ></img>
+              </a>
+
+              <div className="project-view-link">
+                <a
+                  href="https://msmfa.github.io/corona-dashboard/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  VIEW PROJECT
+                </a>
+              </div>
             </div>
           </div>
         </div>

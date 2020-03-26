@@ -20,7 +20,6 @@ class App extends Component {
         <Header />
         <ContactButton />
         <ProjectHeader />
-
         <ProjectSection />
         <ProjectSection />
         <ProjectSection />

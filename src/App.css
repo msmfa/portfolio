@@ -66,12 +66,13 @@ html {
 
 .project-links {
   display: flex;
-  width: 25vw;
+  width: 20vw;
   font-family: "San Francisco";
   font-size: 0.7em;
   margin: 1em 0;
   color: rgb(59, 59, 59);
   justify-content: space-between;
+  margin-left: auto;
 }
 .project-links ul {
   list-style-type: none;
@@ -86,11 +87,11 @@ html {
 }
 
 .project-github-link {
-  width: 17px;
+  width: 16px;
 }
 .project-links-icons {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .project-view-link {
