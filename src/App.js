@@ -2,6 +2,8 @@ import React from "react";
 import "./css/Nav.css";
 import "./App.css";
 import "./css/Links.css";
+import "./css/Header.css";
+import "./css/ContactButton.css";
 
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
@@ -15,7 +17,6 @@ function App() {
       <NavBar />
       <Header />
       <ContactButton />
-
       <ProjectSection />
       <ProjectSection />
       <Links />

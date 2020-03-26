@@ -4,66 +4,54 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
-.about-container {
-  border: 1px solid red;
-  display: flex;
-  width: 70vw;
-  margin: auto;
-}
-
-.about-text {
-}
-
-.about-title {
-  width: 70vw;
-  margin: auto;
-  margin-top: 50vh;
-  border: 1px solid red;
-}
-
 .project-container {
+  display: flex;
   width: 70vw;
   margin: auto;
   margin-top: 5em;
 }
 
-.button-container button {
-  border: 1px solid rgb(16, 185, 92);
+.project-text {
+  font-family: "San Francisco";
+  font-size: 0.8em;
+  width: 35vw;
+  padding: 1em 0;
   border-radius: 2px;
-  margin-left: 8rem;
-  width: 105px;
-  height: 45px;
-  background-color: rgb(236, 255, 238);
-  color: green;
-  font-family: "Roboto Mono", monospace;
-  margin-bottom: 40vh;
+  color: rgb(116, 116, 116);
 }
 
-.header-container {
-  margin: 5em 0 3em 8em;
-  width: 70vw;
+.project-title-one {
+  font-family: "San Francisco";
+  font-size: 0.6em;
+  color: grey;
 }
-.header-top {
-  color: rgb(83, 83, 83);
-  font-family: "Playfair Display", serif;
-}
-.header-middle {
-  font-size: 2.6em;
-}
-.header-text-link {
-  color: black;
-}
-.header-bottom {
-  font-size: 1.6em;
-  color: rgb(102, 102, 102);
-  margin-top: -0.2em;
-  font-family: "Playfair Display", serif;
-}
-.header-text {
-  margin-top: 1em;
-  font-family: "Playfair Display", serif;
+.project-title-two {
+  font-family: "Heebo", sans-serif;
+  font-size: 1.4em;
+  font-weight: 900;
 }
 
+.project-container-main {
+  border: 1px solid rgb(233, 233, 233);
+  padding: 0 1em;
+  margin: -1em;
+  z-index: 2;
+  background-color: white;
+  height: 225px;
+}
+
+.project-links {
+  display: flex;
+  width: 25vw;
+  font-family: "San Francisco";
+  font-size: 0.7em;
+  margin: 1em 0;
+  color: rgb(59, 59, 59);
+  justify-content: space-between;
+}
+.project-links ul {
+  list-style-type: none;
+}
 .project-covid-image {
   width: 45vw;
   height: 25vw;
@@ -72,30 +60,17 @@
   box-shadow: -9px 10px 11px -9px rgba(219, 219, 219, 1);
   z-index: 0;
 }
-.project-container {
+
+.project-github-link {
+  width: 17px;
+}
+.project-links-icons {
   display: flex;
-  width: 75vw;
-  margin-bottom: 10rem;
+  justify-content: flex-end;
 }
 
-.project-title {
-}
-
-.project-aside {
-  font-size: 0.9em;
-  margin-left: -2em;
-  background-color: white;
-  z-index: 10;
-  height: 40vh;
-  width: 50vw;
-  text-align: left;
-  padding: 0.8em;
-  margin-top: -0.5em;
-  -webkit-box-shadow: 6px 9px 15px 0px rgba(232, 232, 232, 1);
-  -moz-box-shadow: 6px 9px 15px 0px rgba(232, 232, 232, 1);
-  box-shadow: 6px 9px 15px 0px rgba(232, 232, 232, 1);
-  z-index: 0;
-  background-color: rgb(255, 255, 255);
-  color: rgb(100, 100, 100);
-  font-family: "San Francisco";
+.project-view-link {
+  font-size: 0.7em;
+  font-family: "Heebo", sans-serif;
+  border-bottom: 2px solid orange;
 }
