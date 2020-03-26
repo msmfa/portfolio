@@ -6,7 +6,13 @@ function Links() {
     <>
       <ul>
         <li>
-          <img className="github" src={GithubIcon} alt="github"></img>
+          <a
+            href="https://github.com/msmfa"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="github" src={GithubIcon} alt="github"></img>
+          </a>
           <div className="line"></div>
         </li>
       </ul>

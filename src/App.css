@@ -3,12 +3,36 @@
   font-weight: 400;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
+html {
+  scroll-behavior: smooth;
+}
+#proj {
+  height: 25vh;
+}
+.project-section-header {
+  color: black;
+  margin-left: 1em;
+}
+
+.project-section-header {
+  color: rgb(51, 51, 51);
+}
 
 .project-container {
   display: flex;
-  width: 70vw;
+  width: 80vw;
   margin: auto;
-  margin-top: 5em;
+  margin-top: 1em;
+  margin-bottom: 10em;
+}
+.project-header-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "San Francisco";
+  font-weight: 900;
+  margin-bottom: 3em;
+  margin-right: 1.7em;
 }
 
 .project-text {
