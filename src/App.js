@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import "./css/Nav.css";
 import "./App.css";
 import "./css/Links.css";
@@ -11,17 +11,18 @@ import ContactButton from "./components/ContactButton";
 import ProjectSection from "./components/ProjectSection";
 import Links from "./components/Links";
 
-function App() {
-  return (
-    <>
-      <NavBar />
-      <Header />
-      <ContactButton />
-      <ProjectSection />
-      <ProjectSection />
-      <Links />
-    </>
-  );
+class App extends Component {
+  render() {
+    return (
+      <>
+        <NavBar />
+        <Header />
+        <ContactButton />
+        <ProjectSection />
+        <ProjectSection />
+        <Links />
+      </>
+    );
+  }
 }
-
 export default App;
