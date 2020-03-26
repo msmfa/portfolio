@@ -3,6 +3,7 @@ import "./css/Nav.css";
 import "./App.css";
 import "./css/Links.css";
 import "./css/Header.css";
+import "./css/About.css";
 import "./css/ContactButton.css";
 
 import Header from "./components/Header";
@@ -11,6 +12,7 @@ import ContactButton from "./components/ContactButton";
 import ProjectSection from "./components/ProjectSection";
 import Links from "./components/Links";
 import ProjectHeader from "./components/ProjectHeader";
+import AboutSection from "./components/AboutSection";
 
 class App extends Component {
   render() {
@@ -23,6 +25,7 @@ class App extends Component {
         <ProjectSection />
         <ProjectSection />
         <ProjectSection />
+        <AboutSection />
         <Links />
       </>
     );

@@ -5,7 +5,9 @@ function NavBar() {
     <>
       <div className="nav-container">
         <ul>
-          <li>About</li>
+          <li>
+            <a href="#about">About</a>
+          </li>
           <li>
             <a href="#proj">Projects</a>
           </li>
