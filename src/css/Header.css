@@ -11,6 +11,7 @@
 }
 .header-text-link {
   color: black;
+  text-decoration: underline;
 }
 .header-bottom {
   font-size: 1.6em;

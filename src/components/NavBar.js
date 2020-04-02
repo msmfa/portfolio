@@ -11,7 +11,16 @@ function NavBar() {
           <li>
             <a href="#proj">Projects</a>
           </li>
-          <li>Contact</li>
+          <li>
+            {" "}
+            <a
+              href="mailto:studio@michaelsydneymoore.com"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+            >
+              Contact
+            </a>
+          </li>
         </ul>
       </div>
     </>

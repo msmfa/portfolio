@@ -12,7 +12,7 @@ function Header() {
         <p className="header-text">
           I build high quality web based solutions to business and society's
           problems such as{" "}
-          <a className="header-text-link" href="https://www.google.com">
+          <a className="header-text-link" href="#proj">
             these.
           </a>{" "}
         </p>

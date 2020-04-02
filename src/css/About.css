@@ -13,6 +13,7 @@
   font-size: 0.8em;
   color: rgb(116, 116, 116);
   margin-bottom: 10em;
+  margin-top: 18em;
 }
 
 .about-text {
@@ -30,5 +31,9 @@
 
 .profile-photo {
   width: 160px;
-  height: 195px;
+  height: 180px;
+}
+
+.about-subtitle {
+  margin: 1em 0;
 }
