@@ -51,7 +51,7 @@ function ProjectSectionTwo() {
 
             <div className="project-view-link">
               <a
-                href="https://msmfa.github.io/corona-dashboard/"
+                href="https://sort-vis.netlify.com//"
                 target="_blank"
                 rel="noopener noreferrer"
               >
