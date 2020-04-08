@@ -7,13 +7,7 @@ function AboutSection() {
       <div id="about" className="about-container">
         <div className="about-text">
           <div className="about-subtitle about-title">About me</div>
-          Hello! I'm Michael. I like using clean code to solve problems. Most of
-          my work is focused on the front end but I'm currently learning the
-          full stack with a focus on Node.js.
-          <div>
-            I'm looking for an opportunity to learn more within a professional
-            development environment.
-          </div>
+          Hello! I'm Michael. I like using clean code to solve problems.
           <div className="about-subtitle">
             Outside of tech most of my time is taken up by my other job as an{" "}
             <a
@@ -23,6 +17,12 @@ function AboutSection() {
             >
               Oil Painter
             </a>
+          </div>
+          Most of my experience is within the front end but I'm also interested
+          in learning more of the stack.
+          <div>
+            I'm looking for an opportunity to learn more within a professional
+            development environment.
           </div>
           <div className="about-subtitle about-subtitle-one">
             {" "}

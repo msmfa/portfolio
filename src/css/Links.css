@@ -1,15 +1,21 @@
 .line {
-  border: 0.7px solid rgb(129, 129, 129);
+  width: 1px;
   background-color: rgb(129, 129, 129);
-
-  margin-left: 0.55em;
+  margin-left: 0.63em;
   height: 100px;
   position: fixed;
   bottom: 0;
 }
+
 .github {
   width: 20px;
   height: 20px;
   position: fixed;
   bottom: 7em;
+}
+
+.github:hover {
+  width: 23px;
+  height: 23px;
+
 }

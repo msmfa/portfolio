@@ -3,12 +3,15 @@
   font-weight: 400;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 #proj {
   height: 25vh;
 }
+
 .project-section-header {
   color: black;
   margin-left: 1em;
@@ -25,6 +28,7 @@ html {
   margin-top: 1em;
   margin-bottom: 10em;
 }
+
 .project-header-container {
   display: flex;
   justify-content: flex-end;
@@ -49,6 +53,7 @@ html {
   font-size: 0.6em;
   color: grey;
 }
+
 .project-title-two {
   font-family: "Heebo", sans-serif;
   font-size: 1.4em;
@@ -74,9 +79,11 @@ html {
   justify-content: space-between;
   margin-left: auto;
 }
+
 .project-links ul {
   list-style-type: none;
 }
+
 .project-covid-image {
   width: 45vw;
   height: 25vw;
@@ -89,6 +96,7 @@ html {
 .project-github-link {
   width: 16px;
 }
+
 .project-links-icons {
   display: flex;
   justify-content: space-between;
