@@ -24,7 +24,6 @@ class App extends Component {
         <ProjectHeader />
         <ProjectSection />
         <ProjectSectionTwo />
-        <ProjectSection />
         <AboutSection />
         <Links />
       </>
