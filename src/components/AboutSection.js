@@ -1,5 +1,4 @@
 import React from "react";
-import Placeholder from "./IMG/circle-portfolio.jpg";
 
 function AboutSection() {
   return (

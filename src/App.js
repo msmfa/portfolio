@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./css/Nav.css";
 import "./App.css";
 import "./css/Links.css";
@@ -16,21 +16,20 @@ import ProjectSection from "./components/ProjectSection";
 import ProjectSectionTwo from "./components/ProjectSectionTwo";
 import ProjectSectionThree from "./components/ProjectSectionThree";
 
-class App extends Component {
-  render() {
-    return (
-      <>
-        <NavBar />
-        <Header />
-        <ContactButton />
-        <ProjectHeader />
-        <ProjectSection />
-        <ProjectSectionTwo />
-        <ProjectSectionThree />
-        <AboutSection />
-        <Links />
-      </>
-    );
-  }
+function App() {
+  return (
+    <>
+      <NavBar />
+      <Header />
+      <ContactButton />
+      <ProjectHeader />
+      <ProjectSection />
+      <ProjectSectionTwo />
+      <ProjectSectionThree />
+      <AboutSection />
+      <Links />
+    </>
+  );
 }
+
 export default App;
