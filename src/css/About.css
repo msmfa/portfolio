@@ -29,11 +29,16 @@
 }
 
 .profile-photo {
-  width: 35vw;
-  height: 45vh;
+  width: 200px;
+  height: 220px;
   border: 1px solid grey;
 }
 
-.about-subtitle {
+.about-title {
   margin: 1em 0;
+  font-family: "Heebo", sans-serif;
+  font-size: 1.4em;
+  font-weight: 900;
+  color: black;
+  text-transform: uppercase;
 }

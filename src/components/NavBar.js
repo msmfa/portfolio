@@ -21,6 +21,9 @@ function NavBar() {
               Contact
             </a>
           </li>
+          <li>
+            <a href="#about">CV</a>
+          </li>
         </ul>
       </div>
     </>

@@ -1,5 +1,5 @@
 import React from "react";
-import Placeholder from "./IMG/placeholder.png";
+import Placeholder from "./IMG/circle-portfolio.jpg";
 
 function AboutSection() {
   return (
@@ -38,7 +38,7 @@ function AboutSection() {
             </ul>
           </div>
         </div>
-        <img className="profile-photo" src={Placeholder} alt="human"></img>
+        {/* //<img className="profile-photo" src={Placeholder} alt="human"></img> */}
       </div>
     </>
   );
