@@ -8,16 +8,15 @@
   display: flex;
   justify-content: space-between;
   margin: auto;
-  width: 600px;
+  width: 70vw;
   font-family: "San Francisco";
-  font-size: 0.8em;
+  font-size: 18px;
   color: rgb(116, 116, 116);
   margin-bottom: 10em;
   margin-top: 18em;
 }
 
 .about-text {
-  width: 38vw;
 }
 
 .about-subtitle-one {
@@ -30,12 +29,11 @@
 }
 
 .profile-photo {
-  width: 160px;
-  height: 180px;
+  width: 35vw;
+  height: 45vh;
+  border: 1px solid grey;
 }
 
 .about-subtitle {
   margin: 1em 0;
 }
-
-.project-covid-image:hover {}

@@ -25,7 +25,7 @@ function ProjectSectionThree() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              my article here
+              my article here.
             </a>
           </div>
 
