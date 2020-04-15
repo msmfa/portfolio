@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin-left: auto;
+  padding: 1em 0;
   width: 300px;
   list-style-type: none;
 }

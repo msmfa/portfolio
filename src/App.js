@@ -8,11 +8,12 @@ import "./css/ContactButton.css";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import ContactButton from "./components/ContactButton";
-import ProjectSection from "./components/ProjectSection";
 import Links from "./components/Links";
 import ProjectHeader from "./components/ProjectHeader";
 import AboutSection from "./components/AboutSection";
+import ProjectSection from "./components/ProjectSection";
 import ProjectSectionTwo from "./components/ProjectSectionTwo";
+import ProjectSectionThree from "./components/ProjectSectionThree";
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
         <ProjectHeader />
         <ProjectSection />
         <ProjectSectionTwo />
+        <ProjectSectionThree />
         <AboutSection />
         <Links />
       </>
