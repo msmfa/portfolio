@@ -18,7 +18,15 @@ function ProjectSectionThree() {
           </p>
           <div className="project-text">
             This project was built to solidify my understanding of Javascript
-            fundamentals and advanced topics.
+            fundamentals and advanced topics. For a detailed breakdown on the
+            project you can read{" "}
+            <a
+              href="https://dev.to/msmfa/i-tried-to-explain-everything-in-javascript-in-30-words-1nl4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              my article here
+            </a>
           </div>
 
           <div className="project-links">
