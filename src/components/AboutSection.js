@@ -15,14 +15,14 @@ function AboutSection() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Oil Painter
+              Oil Painter.
             </a>
           </div>
           Most of my experience is within the front end but I'm also interested
           in learning more of the stack.
           <div>
-            I'm looking for an opportunity to learn more within a professional
-            development environment.
+            I'm currently looking for an opportunity to learn more within a
+            professional development environment.
           </div>
           <div className="about-subtitle about-subtitle-one">
             {" "}
