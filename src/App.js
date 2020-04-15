@@ -21,7 +21,7 @@ function App() {
     <>
       <NavBar />
       <Header />
-      <ContactButton />
+      <ContactButton text={"Let's Talk"} />
       <ProjectHeader />
       <ProjectSection />
       <ProjectSectionTwo />

@@ -1,6 +1,6 @@
 import React from "react";
 
-function ContactButton() {
+function ContactButton(props) {
   return (
     <>
       <div className="button-container">
@@ -9,7 +9,7 @@ function ContactButton() {
           target="_blank"
           rel="nofollow noopener noreferrer"
         >
-          <button type="submit">Let's Talk</button>
+          <button type="submit">{props.text}</button>
         </a>
       </div>
     </>
