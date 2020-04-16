@@ -9,3 +9,9 @@
   margin-left: 8rem;
   width: 105px;
 }
+
+@media only screen and (max-width: 600px) {
+  .button-container button {
+    margin-bottom: 0;
+  }
+}
