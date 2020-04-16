@@ -29,7 +29,3 @@ First iteration of my portfolio
 ### Components
 
 - NavBar
-
-#### I like writing clean, human readable code. I specialise in front end development and my prefered Framework/Library is React.
-
-#### I'm currently learning more back end technologies as I want to be able to contribute to the whole stack.

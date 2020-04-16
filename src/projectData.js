@@ -7,7 +7,7 @@ export const projectOne = [
   being easy to understand. The App fetches real time data from John
   Hopskins University through an API and displays human icons to
   represent how many people are infected, cured and have died.`,
-    techText: ["React", "Mathroid API"],
+    techText: ["HTML & CSS", "React", "Mathroid API"],
     viewLink: "https://msmfa.github.io/corona-dashboard/",
     githubLink: "https://github.com/msmfa/corona-dashboard",
     image: "corona-app-screenshot",
@@ -20,7 +20,7 @@ export const projectTwo = [
     para: `This project was built to solidify my understanding of Javascript
     fundamentals and advanced topics. For a detailed breakdown on the
     project you can read my article here.`,
-    techText: ["Javascript", "Jest"],
+    techText: ["HTML & CSS", "Javascript", "Jest"],
     viewLink: "https://javascript-in-30-words.netlify.com/",
     githubLink: "https://github.com/msmfa/javascript-in-30",
     image: "j30screenshot",
@@ -33,7 +33,7 @@ export const projectThree = [
     para: `This project was built to help visualise how different sorting
     algorithms actually work. The sorting algorithms chosen were quick
     sort, merge sort and insertion sort.`,
-    techText: ["Javascript", "React"],
+    techText: ["HTML & CSS", "React"],
     viewLink: "https://sort-vis.netlify.com//",
     githubLink: "https://github.com/msmfa/sorting-visualiser",
     image: "sorting-visualiser",

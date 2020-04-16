@@ -23,8 +23,8 @@ function App() {
       <ContactButton text={"Let's Talk"} />
       <ProjectHeader />
       <ProjectSection info={projectOne} />
-      <ProjectSection info={projectTwo} />
       <ProjectSection info={projectThree} />
+      <ProjectSection info={projectTwo} />
       <AboutSection />
       <Links />
     </>
