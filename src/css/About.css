@@ -5,15 +5,15 @@
 }
 
 .about-container {
+  color: rgb(116, 116, 116);
   display: flex;
-  justify-content: space-between;
-  margin: auto;
-  width: 70vw;
   font-family: "San Francisco";
   font-size: 18px;
-  color: rgb(116, 116, 116);
+  justify-content: space-between;
+  margin: auto;
   margin-bottom: 10em;
   margin-top: 18em;
+  width: 70vw;
 }
 
 .about-subtitle-one {
@@ -26,16 +26,16 @@
 }
 
 .profile-photo {
-  width: 200px;
-  height: 220px;
   border: 1px solid grey;
+  height: 220px;
+  width: 200px;
 }
 
 .about-title {
-  margin: 1em 0;
+  color: black;
   font-family: "Heebo", sans-serif;
   font-size: 1.4em;
   font-weight: 900;
-  color: black;
+  margin: 1em 0;
   text-transform: uppercase;
 }

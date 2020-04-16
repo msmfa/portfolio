@@ -1,11 +1,11 @@
 .button-container button {
+  background-color: rgb(236, 255, 238);
   border: 1px solid rgb(16, 185, 92);
   border-radius: 2px;
-  margin-left: 8rem;
-  width: 105px;
-  height: 45px;
-  background-color: rgb(236, 255, 238);
   color: green;
   font-family: "Roboto Mono", monospace;
+  height: 45px;
   margin-bottom: 40vh;
+  margin-left: 8rem;
+  width: 105px;
 }
