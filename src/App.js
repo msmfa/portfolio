@@ -30,7 +30,6 @@ function App() {
       <MoreProjects />
       <AboutSection />
       <Links />
-      />
     </>
   );
 }

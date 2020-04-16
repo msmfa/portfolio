@@ -4,15 +4,12 @@ import { ImageLink } from "./ImageLink";
 
 function Links() {
   return (
-    <>
-      <ul>
-        <li>
-          <ImageLink img={GithubIcon} link="https://github.com/msmfa" />
-          />
-          <div className="line"></div>
-        </li>
-      </ul>
-    </>
+    <ul>
+      <li>
+        <ImageLink img={GithubIcon} link="https://github.com/msmfa" />
+        <div className="line"></div>
+      </li>
+    </ul>
   );
 }
 
