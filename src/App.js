@@ -16,6 +16,22 @@ import ProjectSection from "./components/ProjectSection";
 import ProjectSectionTwo from "./components/ProjectSectionTwo";
 import ProjectSectionThree from "./components/ProjectSectionThree";
 
+const projectOne = [
+  {
+    title: "Covis",
+    subtitle: "Data Visualiser for Covid-19",
+    para: `This project was buit to help people visualise the impact of
+  corona virus. I wanted to solve the problem of large data sets not
+  being easy to understand. The App fetches real time data from John
+  Hopskins University through an API and displays human icons to
+  represent how many people are infected, cured and have died.`,
+    techText: ["React", "Mathroid API"],
+    viewLink: "https://msmfa.github.io/corona-dashboard/",
+    githubLink: "https://github.com/msmfa/corona-dashboard",
+    image: "corona-app-screenshot",
+  },
+];
+
 function App() {
   return (
     <>
@@ -23,7 +39,7 @@ function App() {
       <Header />
       <ContactButton text={"Let's Talk"} />
       <ProjectHeader />
-      <ProjectSection />
+      <ProjectSection info={projectOne} />
       <ProjectSectionTwo />
       <ProjectSectionThree />
       <AboutSection />

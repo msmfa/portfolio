@@ -18,13 +18,13 @@
 }
 
 .header-bottom {
-  font-size: 1.6em;
   color: rgb(102, 102, 102);
-  margin-top: -0.2em;
+  font-size: 1.6em;
   font-family: "Playfair Display", serif;
+  margin-top: -0.2em;
 }
 
 .header-text {
-  margin-top: 1em;
   font-family: "Playfair Display", serif;
+  margin-top: 1em;
 }

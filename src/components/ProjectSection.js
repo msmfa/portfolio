@@ -1,67 +1,65 @@
-import React, { Component } from "react";
-import Covid from "./IMG/corona-app-screenshot.png";
+import React from "react";
 import GithubIcon from "./IMG/github-icon.png";
 
-class ProjectSection extends Component {
-  render() {
-    return (
-      <>
-        <div className="project-container">
-          <img
-            className="project-covid-image"
-            src={Covid}
-            alt="covid-19-app"
-          ></img>
-          <div className="project-container-main">
-            <p className="project-title-two">Covis</p>
-            <p className="project-title-one">Data Visualiser for Covid-19</p>
-            <div className="project-text">
-              This project was buit to help people visualise the impact of
-              corona virus. I wanted to solve the problem of large data sets not
-              being easy to understand. The App fetches real time data from John
-              Hopskins University through an API and displays human icons to
-              represent how many people are infected, cured and have died.
-            </div>
+function ProjectSection(props) {
+  const linkItems = props.info
+    .map((item) => item.techText)
+    .toString()
+    .split(",");
+  const imageURL = props.info.map((item) => item.image);
 
-            <div className="project-links">
-              <ul>
-                <li>React</li>
-              </ul>
-              <ul>
-                <li>Node.js</li>
-              </ul>
-              <ul>
-                <li>Mathdroid API</li>
-              </ul>
-            </div>
-            <div className="project-links-icons">
+  return (
+    <>
+      <div className="p-container">
+        <img
+          className="p-image"
+          src={require(`./IMG/${imageURL}.png`)}
+          alt="screenshot"
+        ></img>
+        <div className="p-container-main">
+          {props.info.map((item) => (
+            <h1 className="p-title">{item.title}</h1>
+          ))}
+
+          {props.info.map((item) => (
+            <h2 className="p-subtitle">{item.subtitle}</h2>
+          ))}
+
+          {props.info.map((item) => (
+            <div className="p-para">{item.para}</div>
+          ))}
+
+          {linkItems.map((item) => (
+            <li className="p-links">{item}</li>
+          ))}
+
+          <div className="p-icons">
+            <a
+              href={props.info.map((item) => item.githubLink)}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="p-github-link"
+                src={GithubIcon}
+                alt="github"
+              ></img>
+            </a>
+
+            <div className="p-view-link">
               <a
-                href="https://github.com/msmfa/corona-dashboard"
+                href={props.info.map((item) => item.viewLink)}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  className="project-github-link"
-                  src={GithubIcon}
-                  alt="github"
-                ></img>
+                VIEW PROJECT
               </a>
-
-              <div className="project-view-link">
-                <a
-                  href="https://msmfa.github.io/corona-dashboard/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  VIEW PROJECT
-                </a>
-              </div>
             </div>
           </div>
         </div>
-      </>
-    );
-  }
+      </div>
+    </>
+  );
 }
 
 export default ProjectSection;
