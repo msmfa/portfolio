@@ -6,7 +6,7 @@ import "./css/Header.css";
 import "./css/About.css";
 import "./css/ContactButton.css";
 import "./css/ProjectSection.css";
-import "./css/MoreProjects.css";
+import "./css/ContentHeaders.css";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import ContactButton from "./components/ContactButton";
@@ -14,8 +14,8 @@ import Links from "./components/Links";
 import ProjectHeader from "./components/ProjectHeader";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
-import MoreProjects from "./components/MoreProjects";
 import { projectOne, projectTwo, projectThree } from "./projectData";
+import ContentHeaders from "./components/ContentHeaders";
 
 function App() {
   return (
@@ -24,11 +24,12 @@ function App() {
       <Header />
       <ContactButton text={"Let's Talk"} />
       <AboutSection />
+      <ContentHeaders text="Featured Projects" />
       <ProjectHeader />
       <ProjectSection info={projectOne} />
       <ProjectSection flex="row-reverse" info={projectThree} />
       <ProjectSection info={projectTwo} />
-      {/* <MoreProjects /> */}
+      <ContentHeaders text="More Projects" />
       <Links />
     </>
   );
