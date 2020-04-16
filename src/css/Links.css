@@ -18,3 +18,20 @@
   width: 23px;
   height: 23px;
 }
+
+@media only screen and (max-width: 600px) {
+  .icon {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    bottom: 2em;
+  }
+  .line {
+    width: 1px;
+    background-color: rgb(129, 129, 129);
+    margin-left: 0.63em;
+    height: 26px;
+    position: fixed;
+    bottom: 0;
+  }
+}
