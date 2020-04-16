@@ -16,7 +16,7 @@ function ProjectSection(props) {
           src={require(`./IMG/${imageURL}.png`)}
           alt="screenshot"
         ></img>
-        <div className="p-container-main">
+        <div className="p-container-right">
           {props.info.map((item) => (
             <h1 className="p-title">{item.title}</h1>
           ))}
@@ -29,9 +29,12 @@ function ProjectSection(props) {
             <div className="p-para">{item.para}</div>
           ))}
 
-          {linkItems.map((item) => (
-            <li className="p-links">{item}</li>
-          ))}
+          <div className="p-link-flexbox">
+            {" "}
+            {linkItems.map((item) => (
+              <li className="p-links">{item}</li>
+            ))}
+          </div>
 
           <div className="p-icons">
             <a
