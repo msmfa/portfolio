@@ -13,8 +13,6 @@ import Links from "./components/Links";
 import ProjectHeader from "./components/ProjectHeader";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
-import ProjectSectionTwo from "./components/ProjectSectionTwo";
-import ProjectSectionThree from "./components/ProjectSectionThree";
 
 const projectOne = [
   {
@@ -31,6 +29,32 @@ const projectOne = [
     image: "corona-app-screenshot",
   },
 ];
+const projectTwo = [
+  {
+    title: "Javascript In 30 Words",
+    subtitle: "A pre-interview refresher for Javascript interviews",
+    para: `This project was built to solidify my understanding of Javascript
+    fundamentals and advanced topics. For a detailed breakdown on the
+    project you can read my article here.`,
+    techText: ["Javascript", "Jest"],
+    viewLink: "https://javascript-in-30-words.netlify.com/",
+    githubLink: "https://github.com/msmfa/javascript-in-30",
+    image: "j30screenshot",
+  },
+];
+const projectThree = [
+  {
+    title: "Sort",
+    subtitle: "Data Visualiser for Sorting Algorithms",
+    para: `This project was built to help visualise how different sorting
+    algorithms actually work. The sorting algorithms chosen were quick
+    sort, merge sort and insertion sort.`,
+    techText: ["Javascript", "React"],
+    viewLink: "https://sort-vis.netlify.com//",
+    githubLink: "https://github.com/msmfa/sorting-visualiser",
+    image: "sorting-visualiser",
+  },
+];
 
 function App() {
   return (
@@ -40,8 +64,9 @@ function App() {
       <ContactButton text={"Let's Talk"} />
       <ProjectHeader />
       <ProjectSection info={projectOne} />
-      <ProjectSectionTwo />
-      <ProjectSectionThree />
+      <ProjectSection info={projectTwo} />
+      <ProjectSection info={projectThree} />
+
       <AboutSection />
       <Links />
     </>
