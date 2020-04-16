@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  font-family: "San Francisco";
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.container a:hover {
+  color: rgb(105, 105, 105);
+}
