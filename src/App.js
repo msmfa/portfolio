@@ -6,6 +6,7 @@ import "./css/Header.css";
 import "./css/About.css";
 import "./css/ContactButton.css";
 import "./css/ProjectSection.css";
+import "./css/MoreProjects.css";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import ContactButton from "./components/ContactButton";
@@ -13,6 +14,7 @@ import Links from "./components/Links";
 import ProjectHeader from "./components/ProjectHeader";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
+import MoreProjects from "./components/MoreProjects";
 import { projectOne, projectTwo, projectThree } from "./projectData";
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
       <ProjectSection info={projectOne} />
       <ProjectSection info={projectThree} />
       <ProjectSection info={projectTwo} />
+      <MoreProjects />
       <AboutSection />
       <Links />
       />
