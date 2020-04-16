@@ -28,3 +28,29 @@
   font-family: "Playfair Display", serif;
   margin-top: 1em;
 }
+
+@media only screen and (max-width: 600px) {
+  .header-container {
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+    border: 1px solid red;
+  }
+
+  .header-top {
+    font-size: 1em;
+  }
+
+  .header-middle {
+    font-size: 1.8em;
+  }
+
+  .header-bottom {
+    font-size: 1.2em;
+  }
+
+  .header-text-link {
+    color: black;
+    text-decoration: underline;
+  }
+}
