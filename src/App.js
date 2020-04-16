@@ -26,7 +26,7 @@ function App() {
       <AboutSection />
       <ProjectHeader />
       <ProjectSection info={projectOne} />
-      <ProjectSection info={projectThree} />
+      <ProjectSection flex="row-reverse" info={projectThree} />
       <ProjectSection info={projectTwo} />
       <MoreProjects />
       <Links />

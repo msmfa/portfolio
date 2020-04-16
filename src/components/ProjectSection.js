@@ -10,7 +10,7 @@ function ProjectSection(props) {
 
   return (
     <>
-      <div className="p-container">
+      <div style={{ flexDirection: `${props.flex}` }} className="p-container">
         <img
           className="p-image"
           src={require(`./IMG/${imageURL}.png`)}
