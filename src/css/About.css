@@ -6,11 +6,15 @@
 
 .about-container {
   display: none;
-  width: 40vw;
+  width: 50vw;
   margin-left: 8em;
 }
 
 .para h3 {
+  margin: 1em 0;
+  font-family: "San Francisco";
+  color: grey;
   font-size: 1em;
   font-weight: 300;
+  letter-spacing: 0.02em;
 }

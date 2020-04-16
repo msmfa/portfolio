@@ -12,6 +12,6 @@
 
 @media only screen and (max-width: 600px) {
   .button-container button {
-    margin-bottom: 0;
+    margin: 1.2rem 0 0 1rem;
   }
 }

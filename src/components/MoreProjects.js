@@ -9,7 +9,7 @@ export default function MoreProjects() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          More Projects
+          Other Projects
         </a>
       </div>
     </>

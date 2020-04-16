@@ -3,7 +3,6 @@ body {
 }
 
 .nav-container ul {
-  color: rgb(94, 94, 94);
   display: flex;
   font-family: "Roboto Mono", monospace;
   font-size: 0.7em;
@@ -11,4 +10,5 @@ body {
   margin-left: auto;
   padding: 1em 0;
   width: 300px;
+  letter-spacing: 0.2em;
 }
