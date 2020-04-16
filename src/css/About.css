@@ -1,41 +1,16 @@
 @font-face {
   font-family: "San Francisco";
-  font-weight: 400;
+  font-weight: 300;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
 .about-container {
-  color: rgb(116, 116, 116);
-  display: flex;
-  font-family: "San Francisco";
-  font-size: 18px;
-  justify-content: space-between;
-  margin: auto;
-  margin-bottom: 10em;
-  margin-top: 18em;
-  width: 70vw;
+  display: none;
+  width: 40vw;
+  margin-left: 8em;
 }
 
-.about-subtitle-one {
-  margin: 1em 0;
-}
-
-.about-subtitle-two ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.profile-photo {
-  border: 1px solid grey;
-  height: 220px;
-  width: 200px;
-}
-
-.about-title {
-  color: black;
-  font-family: "Heebo", sans-serif;
-  font-size: 1.4em;
-  font-weight: 900;
-  margin: 1em 0;
-  text-transform: uppercase;
+.para h3 {
+  font-size: 1em;
+  font-weight: 300;
 }

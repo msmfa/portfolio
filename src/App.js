@@ -23,12 +23,12 @@ function App() {
       <NavBar />
       <Header />
       <ContactButton text={"Let's Talk"} />
+      <AboutSection />
       <ProjectHeader />
       <ProjectSection info={projectOne} />
       <ProjectSection info={projectThree} />
       <ProjectSection info={projectTwo} />
       <MoreProjects />
-      <AboutSection />
       <Links />
     </>
   );
