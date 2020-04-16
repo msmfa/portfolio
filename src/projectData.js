@@ -19,7 +19,7 @@ export const projectTwo = [
     subtitle: "A pre-interview refresher for Javascript interviews",
     para: `This project was built to solidify my understanding of Javascript
     fundamentals and advanced topics. For a detailed breakdown on the
-    project you can read my article here.`,
+    project you can read my article`,
     techText: ["HTML & CSS", "Javascript", "Jest"],
     viewLink: "https://javascript-in-30-words.netlify.com/",
     githubLink: "https://github.com/msmfa/javascript-in-30",

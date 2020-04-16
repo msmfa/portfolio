@@ -27,6 +27,7 @@ function App() {
       <ProjectSection info={projectTwo} />
       <AboutSection />
       <Links />
+      />
     </>
   );
 }
