@@ -6,7 +6,10 @@ function AboutSection() {
       <div className="about-container">
         <div className="title">About</div>
         <p className="para">
-          <h3>I'm a Front-end Software Engineer and Oil Painter.</h3>
+          <h3>
+            I'm a Front-end Software Engineer and{" "}
+            <a href="www.michaelsydneymoore.com">Oil Painter</a>
+          </h3>
           <h3>
             I like creating good looking and elegant front ends with modern and
             clean code. I'm currently learning Typescript and the functional

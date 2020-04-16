@@ -28,7 +28,7 @@ function App() {
       <ProjectSection info={projectOne} />
       <ProjectSection flex="row-reverse" info={projectThree} />
       <ProjectSection info={projectTwo} />
-      <MoreProjects />
+      {/* <MoreProjects /> */}
       <Links />
     </>
   );
