@@ -23,7 +23,7 @@ function App() {
       <NavBar />
       <Header />
       <ContactButton text={"Let's Talk"} />
-      <ContentHeaders text="About Me" />
+      <ContentHeaders id="about" text="About Me" />
       <AboutSection />
       <ContentHeaders id="proj" text="Featured Projects" />
       <ProjectSection info={projectOne} />
