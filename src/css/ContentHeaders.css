@@ -1,11 +1,11 @@
 .container {
+  border-bottom: 1px solid rgb(218, 218, 218);
   font-family: "Inter", sans-serif;
   font-weight: 200;
-  text-transform: uppercase;
+  margin: 2em 0 2em 8em;
   letter-spacing: 0.1em;
-  margin: 0 0 2em 8em;
-  border-bottom: 1px solid rgb(218, 218, 218);
-  border-left: 1px solid rgb(218, 218, 218);
+  text-transform: uppercase;
+  padding-top: 10vh;
   width: 30vw;
 }
 

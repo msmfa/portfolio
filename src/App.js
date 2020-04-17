@@ -25,8 +25,7 @@ function App() {
       <ContactButton text={"Let's Talk"} />
       <ContentHeaders text="About Me" />
       <AboutSection />
-      <ContentHeaders text="Featured Projects" />
-      <ProjectHeader />
+      <ContentHeaders id="proj" text="Featured Projects" />
       <ProjectSection info={projectOne} />
       <ProjectSection flex="row-reverse" info={projectThree} />
       <ProjectSection info={projectTwo} />
