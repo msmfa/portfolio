@@ -22,7 +22,15 @@ function AboutSection() {
           </h3>
           <h3>
             When I'm not learning one of the above or wrestling with webpack I'm
-            usually in the studio painting or on Codewars.
+            usually in the studio painting or on{" "}
+            <a
+              href="https://www.codewars.com/users/msmfa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Codewars
+            </a>
+            .
           </h3>
         </p>
       </div>
