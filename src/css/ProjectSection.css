@@ -72,6 +72,16 @@
   box-shadow: -9px 10px 11px -9px rgba(219, 219, 219, 1);
   z-index: 1;
 }
+.more-info a {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-family: "San Francisco";
+  color: rgb(1, 129, 233);
+  text-decoration: underline;
+}
+.more-info {
+  margin: 1.5em 0 0 0;
+}
 
 @media only screen and (max-width: 600px) {
   .p-container {

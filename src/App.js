@@ -11,7 +11,6 @@ import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import ContactButton from "./components/ContactButton";
 import Links from "./components/Links";
-import ProjectHeader from "./components/ProjectHeader";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
 import { projectOne, projectTwo, projectThree } from "./projectData";
