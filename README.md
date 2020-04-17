@@ -11,9 +11,9 @@ First iteration of my portfolio
 
 ### General Requirements
 
-- Contact button
-- About me Section with a photo
-- A Detailed Projects section
+- ~~Contact button~~
+- ~~About me Section with a photo~~
+- ~~A Detailed Projects section~~
 - A smaller projects section (with less detail)
 - Link to: CV, CodeWars, GitHub
 - List of Technologies I know
@@ -27,5 +27,3 @@ First iteration of my portfolio
 - Jekyll?
 
 ### Components
-
-- NavBar
