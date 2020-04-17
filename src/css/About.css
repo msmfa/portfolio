@@ -5,9 +5,10 @@
 }
 
 .about-container {
-  display: none;
   width: 50vw;
+  height: 60vh;
   margin-left: 8em;
+  margin-bottom: 5em;
 }
 
 .para h3 {

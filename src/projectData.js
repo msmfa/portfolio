@@ -16,7 +16,7 @@ export const projectOne = [
 export const projectTwo = [
   {
     title: "Javascript In 30 Words",
-    subtitle: "A pre-interview refresher for Javascript interviews",
+    subtitle: "Javascript Concepts Explained in 30 Words or Less",
     para: `This project was built to solidify my understanding of Javascript
     fundamentals and advanced topics. For a detailed breakdown on the
     project you can read my article`,

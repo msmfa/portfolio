@@ -4,7 +4,6 @@ function AboutSection() {
   return (
     <>
       <div className="about-container">
-        <div className="title">About</div>
         <p className="para">
           <h3>
             I'm a Front-end Software Engineer and{" "}
