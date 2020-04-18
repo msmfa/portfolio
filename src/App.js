@@ -7,6 +7,7 @@ import "./css/About.css";
 import "./css/ContactButton.css";
 import "./css/ProjectSection.css";
 import "./css/ContentHeaders.css";
+import "./css/MoreProjects.css";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import ContactButton from "./components/ContactButton";
