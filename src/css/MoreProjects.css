@@ -46,3 +46,10 @@
   color: rgb(1, 129, 233);
   text-decoration: underline;
 }
+
+.updated-link {
+  font-family: "Inter", sans-serif;
+  font-size: 0.7em;
+  color: grey;
+  margin: 0.4em 0;
+}

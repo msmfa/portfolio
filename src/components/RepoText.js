@@ -22,7 +22,9 @@ export function RepoText(props) {
         </a>
       </li>
 
-      <li key={uuidv4()}>{timeSince(new Date(item.updated_at))}</li>
+      <li className="updated-link" key={uuidv4()}>
+        Updated {timeSince(new Date(item.updated_at))}
+      </li>
     </div>
   ));
 }
