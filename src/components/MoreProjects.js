@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Axios from "axios";
-import { v4 as uuidv4 } from "uuid";
-import { timeSince } from "./timeSince";
+import { RepoText } from "./RepoText";
+import { Title } from "./Title";
+import { ExpandButton } from "./ExpandButton";
 
 function MoreProjects() {
   const [display, setDisplay] = useState([]);
@@ -29,7 +30,6 @@ function MoreProjects() {
 
     getData();
   }, []);
-  // Wrapped in useEffect to stop it re rendering
 
   const handleExpand = () => {
     if (display.length === numOfDisplayRepos) {
@@ -39,33 +39,12 @@ function MoreProjects() {
   return (
     <>
       <div className="repo-container">
-        {display.map((item) => (
-          <div className="repo" key={uuidv4()}>
-            <li className="repo-title" key={uuidv4()}>
-              {item.name}
-            </li>
-            <li className="repo-description" key={uuidv4()}>
-              {item.description}
-            </li>
-            <li className="github-link" key={uuidv4()}>
-              <a
-                key={uuidv4()}
-                href={item.html_url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github Link
-              </a>
-            </li>
-
-            <li key={uuidv4()}>{timeSince(new Date(item.updated_at))}</li>
-          </div>
-        ))}
-        <button onClick={handleExpand} type="submit">
-          Expand{" "}
-        </button>
+        <Title />
+        <RepoText display={display} />
+        <ExpandButton handleExpand={handleExpand} />
       </div>
     </>
   );
 }
+
 export default MoreProjects;
