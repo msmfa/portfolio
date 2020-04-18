@@ -53,3 +53,9 @@
   color: grey;
   margin: 0.4em 0;
 }
+
+.expand-button {
+  font-size: 1.2em;
+  color: red;
+  border: none;
+}

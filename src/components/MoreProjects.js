@@ -8,7 +8,8 @@ function MoreProjects() {
   const [display, setDisplay] = useState([]);
   const [shortRepos, setshortRepos] = useState([]);
   const [allRepos, setallRepos] = useState([]);
-  const numOfDisplayRepos = 6;
+  const [buttonState, setButtonState] = useState(false);
+  const NUM_OF_DISPLAY_REPOS = 3;
 
   useEffect(() => {
     async function getData() {
@@ -20,7 +21,7 @@ function MoreProjects() {
       const sortByUpdate = [...data].sort(
         (a, b) => +new Date(b.updated_at) - +new Date(a.updated_at)
       );
-      const repos = [...sortByUpdate].slice(0, `${numOfDisplayRepos}`);
+      const repos = [...sortByUpdate].slice(0, `${NUM_OF_DISPLAY_REPOS}`);
       const allRepos = [...sortByUpdate];
 
       setDisplay([...repos]);
@@ -32,9 +33,9 @@ function MoreProjects() {
   }, []);
 
   const handleExpand = () => {
-    if (display.length === numOfDisplayRepos) {
+    if (display.length === NUM_OF_DISPLAY_REPOS) {
       setDisplay([...allRepos]);
-    } else setDisplay([...shortRepos]);
+    } else setDisplay([...shortRepos]) && setButtonState(true);
   };
   return (
     <>
@@ -42,7 +43,7 @@ function MoreProjects() {
         <Title />
         <Subtitle />
         <RepoText display={display} />
-        <ExpandButton handleExpand={handleExpand} />
+        <ExpandButton buttonState={buttonState} handleExpand={handleExpand} />
       </div>
     </>
   );
