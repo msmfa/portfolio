@@ -3,3 +3,46 @@
   margin: auto;
   margin-bottom: 3em;
 }
+.repo {
+  padding-bottom: 0.8em;
+  width: 40vw;
+  margin: 0.4em 0;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+/* --------------------------- TEXT ---------------------------*/
+
+.more-title {
+  border-bottom: 1px solid rgb(218, 218, 218);
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 10vh;
+  margin-bottom: 1em;
+  width: 30vw;
+}
+
+.more-subtitle {
+  font-size: 1em;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: grey;
+  margin-bottom: 2em;
+}
+
+.repo-title {
+}
+
+.repo-description {
+  color: #586069;
+}
+
+.github-link a {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-family: "San Francisco";
+  color: rgb(1, 129, 233);
+  text-decoration: underline;
+}

@@ -18,7 +18,7 @@ export function RepoText(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github Link
+          Github
         </a>
       </li>
 
