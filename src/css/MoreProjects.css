@@ -5,9 +5,13 @@
 }
 .repo {
   padding-bottom: 0.8em;
-  width: 40vw;
+  width: 60vw;
   margin: 0.4em 0;
   border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.test:nth-child(1) {
+  opacity: 0.1;
 }
 
 /* --------------------------- TEXT ---------------------------*/
@@ -26,13 +30,15 @@
 
 .more-subtitle {
   font-size: 1em;
-  font-family: "Inter", sans-serif;
+  font-family: "San-Francisco", sans-serif;
   font-weight: 300;
   color: grey;
   margin-bottom: 2em;
 }
 
 .repo-title {
+  font-family: "San-Francisco", sans-serif;
+  color: rgb(82, 77, 77);
 }
 
 .repo-description {
@@ -56,6 +62,16 @@
 
 .expand-button {
   font-size: 1.2em;
-  color: red;
+  color: orange;
   border: none;
+  margin: 1em 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .repo {
+    padding-bottom: 0.8em;
+    width: 80vw;
+    margin: 0.4em 0;
+    border-bottom: 1px solid rgb(216, 216, 216);
+  }
 }

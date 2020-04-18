@@ -23,10 +23,9 @@ function MoreProjects() {
       );
       const repos = [...sortByUpdate].slice(0, `${NUM_OF_DISPLAY_REPOS}`);
       const allRepos = [...sortByUpdate];
-
       setDisplay([...repos]);
       setshortRepos([...repos]);
-      setallRepos([...allRepos]);
+      setallRepos([...allRepos.slice(0, 20)]);
     }
 
     getData();
