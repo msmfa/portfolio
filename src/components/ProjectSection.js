@@ -1,5 +1,5 @@
 import React from "react";
-import GithubIcon from "./IMG/github-icon.png";
+import { ProjectLinks } from "./ProjectLinks";
 
 function ProjectSection(props) {
   const linkItems = props.info
@@ -29,45 +29,7 @@ function ProjectSection(props) {
             <div className="p-para">{item.para}</div>
           ))}
 
-          <div className="p-link-flexbox">
-            {" "}
-            {linkItems.map((item) => (
-              <li className="p-links">{item}</li>
-            ))}
-          </div>
-          <div className="more-info">
-            {" "}
-            <a
-              href={props.info.map((item) => item.moreInfo)}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Read more
-            </a>
-          </div>
-
-          <div className="p-icons">
-            <a
-              href={props.info.map((item) => item.githubLink)}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="p-github-link"
-                src={GithubIcon}
-                alt="github"
-              ></img>
-            </a>
-            <div className="p-view-link">
-              <a
-                href={props.info.map((item) => item.viewLink)}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                VIEW PROJECT
-              </a>
-            </div>
-          </div>
+          <ProjectLinks linkItems={linkItems} info={props.info} />
         </div>
       </div>
     </>

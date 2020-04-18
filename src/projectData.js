@@ -8,7 +8,7 @@ export const projectOne = [
   Hopskins University through an API and displays human icons to
   represent how many people are infected, cured and have died.`,
     techText: ["HTML & CSS", "React", "Axios", "Mathroid API"],
-    moreInfo: "pt-in-30-words-1nl4",
+    moreInfo: "https://github.com/msmfa/corona-dashboard",
     viewLink: "https://msmfa.github.io/corona-dashboard/",
     githubLink: "https://github.com/msmfa/corona-dashboard",
     image: "corona-app-screenshot",

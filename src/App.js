@@ -15,6 +15,7 @@ import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
 import { projectOne, projectTwo, projectThree } from "./projectData";
 import ContentHeaders from "./components/ContentHeaders";
+import MoreProjects from "./components/MoreProjects";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
       <ProjectSection info={projectOne} />
       <ProjectSection flex="row-reverse" info={projectThree} />
       <ProjectSection info={projectTwo} />
-      <ContentHeaders text="More Projects" />
+      <MoreProjects />
       <Links />
     </>
   );
