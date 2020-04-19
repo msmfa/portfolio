@@ -6,7 +6,6 @@ function ContactButton(props) {
       <div className="button-container">
         <a
           href="mailto:studio@michaelsydneymoore.com"
-          target="_blank"
           rel="nofollow noopener noreferrer"
         >
           <button type="submit">{props.text}</button>
