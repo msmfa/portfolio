@@ -15,7 +15,6 @@ function NavBar() {
             {" "}
             <a
               href="mailto:studio@michaelsydneymoore.com"
-              target="_blank"
               rel="nofollow noopener noreferrer"
             >
               Contact

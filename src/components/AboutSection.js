@@ -1,9 +1,11 @@
 import React from "react";
+import ContentHeaders from "./ContentHeaders";
 
 function AboutSection() {
   return (
     <>
       <div className="about-container">
+        <ContentHeaders id="about" text="About Me" />
         <p className="para">
           <h3>
             I'm a Front-end Developer and{" "}

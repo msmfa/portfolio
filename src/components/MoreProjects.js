@@ -3,6 +3,7 @@ import Axios from "axios";
 import { RepoText } from "./RepoText";
 import { Title } from "./Title";
 import { ExpandButton } from "./ExpandButton";
+import ContentHeaders from "./ContentHeaders";
 
 function MoreProjects() {
   const [display, setDisplay] = useState([]);
