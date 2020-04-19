@@ -1,13 +1,31 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
 import { timeSince } from "./timeSince";
+import ExternalLink from "./IMG/sign.png";
 
 export function RepoText(props) {
   return props.display.map((item) => (
     <div className="repo" key={uuidv4()}>
-      <li className="repo-title" key={uuidv4()}>
-        {item.name}
-      </li>
+      <div className="repo-flex">
+        <li className="repo-title" key={uuidv4()}>
+          {item.name}
+        </li>
+        <li>
+          {" "}
+          <a
+            key={uuidv4()}
+            href={item.homepage}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {/* <img
+              className="repo-external-link"
+              src={ExternalLink}
+              alt="link"
+            ></img> */}
+          </a>
+        </li>
+      </div>
       <li className="repo-description" key={uuidv4()}>
         {item.description}
       </li>

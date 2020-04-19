@@ -64,6 +64,9 @@
   font-size: 1.2em;
   margin: 1em 0;
 }
+.repo-external-link {
+  height: 15px;
+}
 
 @media only screen and (max-width: 800px) {
   .repo {
@@ -74,4 +77,9 @@
     font-size: 2em;
     margin: 1em 0;
   }
+}
+
+.repo-flex {
+  display: flex;
+  justify-content: space-between;
 }

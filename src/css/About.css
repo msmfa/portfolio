@@ -20,6 +20,12 @@
   letter-spacing: 0.02em;
 }
 
+.list-flexbox {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3em;
+}
+
 @media only screen and (max-width: 600px) {
   .about-container {
     width: 80vw;
