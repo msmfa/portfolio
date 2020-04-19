@@ -66,11 +66,18 @@
   background-color: white;
   border: none;
   color: orange;
-  font-size: 1.2em;
-  margin: 1em 0;
+  font-size: 1.5em;
 }
 .repo-external-link {
   height: 15px;
+}
+
+a {
+  text-decoration: underline solid transparent;
+  transition: 1s ease;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 800px) {
