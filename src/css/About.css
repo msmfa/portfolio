@@ -4,12 +4,13 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
-.about-container {
+#about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 50vw;
-  height: 100%;
+  height: 100vh;
   margin-left: 8em;
-  margin-top: 30vh;
-  margin-bottom: 35vh;
 }
 
 .para h3 {

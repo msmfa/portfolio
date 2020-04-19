@@ -4,7 +4,7 @@ import ContentHeaders from "./ContentHeaders";
 function AboutSection() {
   return (
     <>
-      <div className="about-container">
+      <div id="about-container">
         <ContentHeaders id="about" text="About Me" />
         <p className="para">
           <h3>
