@@ -43,7 +43,8 @@
 }
 
 .repo-description {
-  color: #586069;
+  color: #7d7f81;
+  font-family: "San-Francisco", sans-serif;
 }
 
 .github-link a {

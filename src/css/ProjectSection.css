@@ -20,9 +20,10 @@
 }
 .p-para {
   border-radius: 2px;
-  color: rgb(116, 116, 116);
+  color: rgb(95, 95, 95);
+
   font-family: "San Francisco";
-  font-size: 0.9em;
+  font-size: 1em;
   padding: 1em 0;
   width: 35vw;
 }
