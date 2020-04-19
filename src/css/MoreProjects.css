@@ -30,10 +30,14 @@
 
 .more-subtitle {
   color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 1em;
   font-family: "San-Francisco", sans-serif;
   font-weight: 300;
   margin-bottom: 3em;
+  width: 60vw;
 }
 
 .repo-title {
@@ -78,6 +82,9 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+.external-link {
+  height: 18px;
 }
 
 @media only screen and (max-width: 800px) {

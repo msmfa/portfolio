@@ -11,3 +11,7 @@ a {
   font-weight: 500;
   text-decoration: none;
 }
+
+.external-link {
+  height: 15px;
+}
