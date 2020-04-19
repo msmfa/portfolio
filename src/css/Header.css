@@ -6,12 +6,13 @@
 .header-top {
   color: rgb(83, 83, 83);
   font-family: "Playfair Display", serif;
+  font-size: 1.2em;
 }
 
 .header-middle {
   font-size: 2.6em;
   font-family: "Playfair Display", serif;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .header-text-link {
@@ -20,15 +21,17 @@
 }
 
 .header-bottom {
-  color: rgb(102, 102, 102);
+  color: rgb(83, 83, 83);
   font-size: 1.6em;
   font-family: "Playfair Display", serif;
   margin-top: -0.2em;
+  margin-bottom: 2em;
 }
 
 .header-text {
   font-family: "Playfair Display", serif;
   margin-top: 1em;
+  margin-bottom: 0.2em;
 }
 
 @media only screen and (max-width: 800px) {
