@@ -65,13 +65,18 @@
   color: orange;
   border: none;
   margin: 1em 0;
+  background-color: white;
 }
 
 @media only screen and (max-width: 800px) {
   .repo {
-    padding-bottom: 0.8em;
     width: 80vw;
     margin: 0.4em 0;
-    border-bottom: 1px solid rgb(216, 216, 216);
+  }
+  .expand-button {
+    font-size: 2em;
+    color: orange;
+    border: none;
+    margin: 1em 0;
   }
 }
