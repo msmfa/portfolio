@@ -1,12 +1,13 @@
 import React from "react";
 import ContentHeaders from "./ContentHeaders";
+import { v4 as uuidv4 } from "uuid";
 
 function AboutSection() {
   return (
     <>
       <div id="about-container">
         <ContentHeaders id="about" text="About Me" />
-        <p className="para">
+        <div key={uuidv4()} className="para">
           <h3>
             I'm a Front-end Developer and{" "}
             <a
@@ -38,7 +39,7 @@ function AboutSection() {
             </a>
             .
           </h3>
-        </p>
+        </div>
       </div>
     </>
   );

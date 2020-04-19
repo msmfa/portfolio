@@ -10,6 +10,10 @@
   width: 60vw;
 }
 
+.repo:nth-child(2) {
+  border: 1px solid red;
+}
+
 /* --------------------------- TEXT ---------------------------*/
 
 .more-title {
@@ -70,7 +74,6 @@
 
 @media only screen and (max-width: 800px) {
   .repo {
-    margin: 0.4em 0;
     width: 80vw;
   }
 
