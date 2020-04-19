@@ -19,7 +19,7 @@
   height: 23px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .icon {
     width: 20px;
     height: 20px;

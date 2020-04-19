@@ -14,7 +14,7 @@
   background-color: rgb(216, 233, 217);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .button-container button {
     margin: 1.2rem 0 0 1rem;
   }
