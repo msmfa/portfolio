@@ -1,17 +1,13 @@
 .repo-container {
-  width: 80vw;
   margin: auto;
   margin-bottom: 3em;
+  width: 80vw;
 }
 .repo {
+  border-bottom: 1px solid rgb(216, 216, 216);
+  margin: 0.4em 0;
   padding-bottom: 0.8em;
   width: 60vw;
-  margin: 0.4em 0;
-  border-bottom: 1px solid rgb(216, 216, 216);
-}
-
-.test:nth-child(1) {
-  opacity: 0.1;
 }
 
 /* --------------------------- TEXT ---------------------------*/
@@ -29,16 +25,17 @@
 }
 
 .more-subtitle {
+  color: grey;
   font-size: 1em;
   font-family: "San-Francisco", sans-serif;
   font-weight: 300;
-  color: grey;
   margin-bottom: 2em;
 }
 
 .repo-title {
   font-family: "San-Francisco", sans-serif;
   color: rgb(82, 77, 77);
+  text-transform: uppercase;
 }
 
 .repo-description {
@@ -46,37 +43,35 @@
 }
 
 .github-link a {
-  text-transform: uppercase;
+  color: rgb(1, 129, 233);
   font-size: 0.8em;
   font-family: "San Francisco";
-  color: rgb(1, 129, 233);
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .updated-link {
-  font-family: "Inter", sans-serif;
-  font-size: 0.7em;
   color: grey;
   margin: 0.4em 0;
+  font-family: "Inter", sans-serif;
+  font-size: 0.7em;
 }
 
 .expand-button {
-  font-size: 1.2em;
-  color: orange;
-  border: none;
-  margin: 1em 0;
   background-color: white;
+  border: none;
+  color: orange;
+  font-size: 1.2em;
+  margin: 1em 0;
 }
 
 @media only screen and (max-width: 800px) {
   .repo {
-    width: 80vw;
     margin: 0.4em 0;
+    width: 80vw;
   }
   .expand-button {
     font-size: 2em;
-    color: orange;
-    border: none;
     margin: 1em 0;
   }
 }

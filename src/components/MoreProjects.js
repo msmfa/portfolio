@@ -9,7 +9,7 @@ function MoreProjects() {
   const [shortRepos, setshortRepos] = useState([]);
   const [allRepos, setallRepos] = useState([]);
   const [buttonState, setButtonState] = useState(false);
-  const NUM_OF_DISPLAY_REPOS = 3;
+  const NUM_OF_DISPLAY_REPOS = 4;
 
   useEffect(() => {
     async function getData() {
