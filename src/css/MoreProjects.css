@@ -5,8 +5,8 @@
 }
 .repo {
   border-bottom: 1px solid rgb(216, 216, 216);
-  margin: 0.4em 0;
-  padding-bottom: 0.8em;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
   width: 60vw;
 }
 
@@ -29,7 +29,7 @@
   font-size: 1em;
   font-family: "San-Francisco", sans-serif;
   font-weight: 300;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .repo-title {
@@ -73,6 +73,7 @@
     margin: 0.4em 0;
     width: 80vw;
   }
+
   .expand-button {
     font-size: 2em;
     margin: 1em 0;
