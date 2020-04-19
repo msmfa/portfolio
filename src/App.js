@@ -10,7 +10,6 @@ import "./css/ContentHeaders.css";
 import "./css/MoreProjects.css";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
-import ContactButton from "./components/ContactButton";
 import Links from "./components/Links";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
@@ -23,7 +22,6 @@ function App() {
     <>
       <NavBar />
       <Header />
-      <ContactButton text={"Let's Talk"} />
       <AboutSection />
       <ContentHeaders id="proj" text="Featured Projects" />
       <ProjectSection info={projectOne} />

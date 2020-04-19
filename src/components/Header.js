@@ -1,4 +1,5 @@
 import React from "react";
+import ContactButton from "./ContactButton";
 
 function Header() {
   return (
@@ -14,6 +15,7 @@ function Header() {
             these.
           </a>
         </p>
+        <ContactButton text={"Let's Talk"} />
       </div>
     </>
   );

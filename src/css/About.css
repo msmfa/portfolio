@@ -6,8 +6,10 @@
 
 .about-container {
   width: 50vw;
-  height: 70vh;
+  height: 100%;
   margin-left: 8em;
+  margin-top: 30vh;
+  margin-bottom: 35vh;
 }
 
 .para h3 {
