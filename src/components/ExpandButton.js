@@ -7,7 +7,6 @@ export function ExpandButton(props) {
     if (buttonText.text === "+") setButtonText({ text: "-" });
     else setButtonText({ text: "+" });
   };
-  console.log(buttonText);
   return (
     <button
       className="expand-button"
