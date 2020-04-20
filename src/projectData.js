@@ -19,7 +19,7 @@ export const projectTwo = [
   {
     title: "Javascript In 30 Words",
     subtitle: "Javascript Concepts Explained in 30 Words or Less",
-    para: `This project was built to solidify my understanding of Javascript fundamentals and advanced topics. For a detailed breakdown on the project you can read my article below.`,
+    para: `This project was built to solidify my understanding of Javascript fundamentals and advanced topics.`,
     techText: ["HTML & CSS", "Javascript", "Jest"],
     moreInfo:
       "https://dev.to/msmfa/i-tried-to-explain-everything-in-javascript-in-30-words-1nl4",
@@ -33,7 +33,7 @@ export const projectThree = [
     title: "Sort",
     subtitle: "Data Visualiser for Sorting Algorithms",
     para: `This project was built to help visualise how different sorting
-    algorithms actually work. The sorting algorithms chosen were quick
+    algorithms work. The sorting algorithms chosen were quick
     sort, merge sort and insertion sort.`,
     techText: ["HTML & CSS", "React"],
     moreInfo: "https://github.com/msmfa/sorting-visualiser",
