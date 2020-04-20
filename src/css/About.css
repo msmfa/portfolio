@@ -33,11 +33,12 @@
   text-decoration: underline solid Currentcolor;
 }
 
+#about {
+  margin-left: 0em;
+}
 @media only screen and (max-width: 800px) {
-  .about-container {
+  #about-container {
     width: 80vw;
-    height: 30vh;
-    margin-left: 1em;
-    margin-bottom: 1em;
+    margin-left: 2em;
   }
 }

@@ -17,4 +17,10 @@
   .container {
     margin: 2em 0 2em 1em;
   }
+  #proj {
+    margin-left: 2em;
+  }
+  .container {
+    margin: 9em 0 2em 0em;
+  }
 }
