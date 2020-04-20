@@ -3,7 +3,6 @@ import Axios from "axios";
 import { RepoText } from "./RepoText";
 import { Title } from "./Title";
 import { ExpandButton } from "./ExpandButton";
-import External from "./IMG/arrow.jpg";
 
 function MoreProjects() {
   const [display, setDisplay] = useState([]);

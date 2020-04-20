@@ -24,6 +24,15 @@
   margin: 0.3em;
 }
 
+.para a {
+  text-decoration: underline solid transparent;
+  transition: text-decoration 1s ease;
+}
+
+.para a:hover {
+  text-decoration: underline solid Currentcolor;
+}
+
 @media only screen and (max-width: 800px) {
   .about-container {
     width: 80vw;

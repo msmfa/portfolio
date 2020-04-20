@@ -46,6 +46,15 @@
   margin-right: auto;
 }
 
+#p-read-more {
+  text-decoration: underline solid transparent;
+  transition: text-decoration 1s ease;
+}
+
+#p-read-more:hover {
+  text-decoration: underline solid Currentcolor;
+}
+
 .p-links {
   padding-left: 1em;
   font-size: 0.75em;
