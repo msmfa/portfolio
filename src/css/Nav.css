@@ -1,7 +1,3 @@
-body {
-  margin: 0.5em;
-}
-
 .nav-container ul {
   display: flex;
   font-family: "Roboto Mono", monospace;
@@ -10,4 +6,9 @@ body {
   margin-left: auto;
   padding: 1em 0;
   width: 300px;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
 }

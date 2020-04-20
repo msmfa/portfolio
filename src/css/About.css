@@ -16,12 +16,12 @@
   font-weight: 300;
 }
 
-.para a {
+.about-text a {
   text-decoration: underline solid transparent;
   transition: text-decoration 1s ease;
 }
 
-.para a:hover {
+.about-text a:hover {
   text-decoration: underline solid Currentcolor;
 }
 

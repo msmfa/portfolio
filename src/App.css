@@ -11,6 +11,7 @@ html {
 body {
   font-family: "IBM Plex Serif", serif;
   font-weight: 300;
+  margin: 0.6em;
 }
 
 h3,
@@ -21,4 +22,12 @@ h2 {
 a {
   color: rgb(3, 109, 3);
   font-weight: bold;
+}
+
+.project-arrow {
+  height: 15px;
+}
+
+.project-arrow:hover {
+  height: 17px;
 }
