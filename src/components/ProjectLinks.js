@@ -8,15 +8,6 @@ export function ProjectLinks(props) {
     <>
       <div className="p-link-flexbox">
         {" "}
-        <a
-          key={uuidv4()}
-          href={props.info.map((item) => item.moreInfo)}
-          target="_blank"
-          rel="noopener noreferrer"
-          id="p-read-more"
-        >
-          Read more
-        </a>{" "}
         {props.linkItems.map((techUsed) => (
           <li key={uuidv4()} className="p-links">
             {techUsed}
