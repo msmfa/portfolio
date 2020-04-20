@@ -6,8 +6,8 @@ function AboutSection() {
   return (
     <>
       <div id="about-container">
-        <ContentHeaders id="about" className="header-titles" text="About Me" />
-        <div key={uuidv4()} className="para">
+        <ContentHeaders id="about" text="About Me" />
+        <div key={uuidv4()} className="about-text">
           <h3>
             I'm a Front-end Developer and{" "}
             <a

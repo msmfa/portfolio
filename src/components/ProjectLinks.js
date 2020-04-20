@@ -6,17 +6,15 @@ import { GreenArrow } from "./GreenArrow";
 export function ProjectLinks(props) {
   return (
     <>
-      <div className="p-link-flexbox">
+      <div className="project-links-container">
         {" "}
         {props.linkItems.map((techUsed) => (
-          <li key={uuidv4()} className="p-links">
+          <li key={uuidv4()} className="project-links">
             {techUsed}
           </li>
         ))}
       </div>
-      <div className="more-info"> </div>
-
-      <div className="p-icons">
+      <div className="project-icons">
         <a
           key={uuidv4()}
           href={props.info.map((item) => item.githubLink)}
@@ -25,14 +23,13 @@ export function ProjectLinks(props) {
         >
           <img
             key={uuidv4()}
-            className="p-github-link"
+            className="project-github-link"
             src={GithubIcon}
             alt="github"
           ></img>
         </a>
         <div key={uuidv4()}>
           <a
-            id="p-view-link"
             key={uuidv4()}
             href={props.info.map((item) => item.viewLink)}
             target="_blank"

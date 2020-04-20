@@ -16,7 +16,7 @@ export function RepoText(props) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img class="project-arrow" src={ExternalLink} alt=""></img>
+              <img className="project-arrow" src={ExternalLink} alt=""></img>
             </a>
           }
         </li>

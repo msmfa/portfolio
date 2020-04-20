@@ -3,6 +3,7 @@ import Axios from "axios";
 import { RepoText } from "./RepoText";
 import { Title } from "./Title";
 import { ExpandButton } from "./ExpandButton";
+import { Subtitle } from "./Subtitle";
 
 function MoreProjects() {
   const [display, setDisplay] = useState([]);
@@ -45,15 +46,6 @@ function MoreProjects() {
         <ExpandButton buttonState={buttonState} handleExpand={handleExpand} />
       </div>
     </>
-  );
-}
-
-function Subtitle() {
-  return (
-    <h2 className="more-subtitle">
-      This is an automatically updated feed of my latest projects built using
-      the Github API.{" "}
-    </h2>
   );
 }
 

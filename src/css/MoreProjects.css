@@ -1,16 +1,4 @@
-.repo-container {
-  margin: auto;
-  margin-bottom: 3em;
-  width: 80vw;
-}
-.repo {
-  border-bottom: 1px solid rgb(216, 216, 216);
-  padding-bottom: 1em;
-  margin-bottom: 2em;
-  width: 60vw;
-}
-
-/* --------------------------- TEXT ---------------------------*/
+/* --------------------------- HEADER ---------------------------*/
 
 .more-title {
   border-bottom: 1px solid rgb(218, 218, 218);
@@ -30,6 +18,20 @@
   margin-bottom: 3em;
   width: 60vw;
   font-weight: 200;
+}
+
+/* --------------------------- REPO DISPLAY ---------------------------*/
+
+.repo-container {
+  margin: auto;
+  margin-bottom: 3em;
+  width: 80vw;
+}
+.repo {
+  border-bottom: 1px solid rgb(216, 216, 216);
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  width: 60vw;
 }
 
 .repo-title {
@@ -56,13 +58,6 @@
   border: none;
   color: rgb(11, 168, 11);
   font-size: 1.5em;
-}
-.repo-external-link {
-  height: 15px;
-}
-
-.external-link {
-  height: 18px;
 }
 
 @media only screen and (max-width: 800px) {
