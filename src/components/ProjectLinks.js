@@ -1,29 +1,29 @@
 import React from "react";
 import GithubIcon from "./IMG/github-icon.png";
 import { v4 as uuidv4 } from "uuid";
+import { GreenArrow } from "./GreenArrow";
 
 export function ProjectLinks(props) {
   return (
     <>
       <div className="p-link-flexbox">
         {" "}
-        {props.linkItems.map((item) => (
-          <li key={uuidv4()} className="p-links">
-            {item}
-          </li>
-        ))}
-      </div>
-      <div className="more-info">
-        {" "}
         <a
           key={uuidv4()}
           href={props.info.map((item) => item.moreInfo)}
           target="_blank"
           rel="noopener noreferrer"
+          id="p-read-more"
         >
           Read more
-        </a>
+        </a>{" "}
+        {props.linkItems.map((techUsed) => (
+          <li key={uuidv4()} className="p-links">
+            {techUsed}
+          </li>
+        ))}
       </div>
+      <div className="more-info"> </div>
 
       <div className="p-icons">
         <a
@@ -39,14 +39,15 @@ export function ProjectLinks(props) {
             alt="github"
           ></img>
         </a>
-        <div key={uuidv4()} className="p-view-link">
+        <div key={uuidv4()}>
           <a
+            id="p-view-link"
             key={uuidv4()}
             href={props.info.map((item) => item.viewLink)}
             target="_blank"
             rel="noopener noreferrer"
           >
-            VIEW PROJECT
+            <GreenArrow />
           </a>
         </div>
       </div>

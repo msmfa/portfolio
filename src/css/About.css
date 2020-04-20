@@ -14,12 +14,8 @@
 }
 
 .para h3 {
-  margin: 1em 0;
-  font-family: "Inter", sans-serif;
-  color: rgb(95, 95, 95);
-  font-size: 1em;
+  margin-bottom: 2em;
   font-weight: 300;
-  letter-spacing: 0.02em;
 }
 
 .list-flexbox {

@@ -14,8 +14,8 @@ import Links from "./components/Links";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
 import { projectOne, projectTwo, projectThree } from "./projectData";
-import ContentHeaders from "./components/ContentHeaders";
 import MoreProjects from "./components/MoreProjects";
+import ContentHeaders from "./components/ContentHeaders";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
       <AboutSection />
       <ContentHeaders id="proj" text="Featured Projects" />
       <ProjectSection info={projectOne} />
-      <ProjectSection flex="row-reverse" info={projectThree} />
+      <ProjectSection info={projectThree} />
       <ProjectSection info={projectTwo} />
       <MoreProjects />
       <Links />

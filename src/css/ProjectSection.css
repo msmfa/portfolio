@@ -8,22 +8,20 @@
 }
 
 .p-title {
-  font-family: "Inter", sans-serif;
-  font-size: 1.4em;
-  font-weight: 500;
+  color: rgb(5, 75, 5);
+  font-family: "Inter";
   text-transform: uppercase;
+  font-weight: 500;
+  margin: 0.2em 0 0 0;
+  font-size: 1.4em;
 }
 .p-subtitle {
-  font-family: "San Francisco";
+  color: rgb(83, 83, 83);
   font-size: 0.9em;
-  color: rgb(82, 77, 77);
 }
 .p-para {
   border-radius: 2px;
-  color: rgb(95, 95, 95);
-
-  font-family: "San Francisco";
-  font-size: 1em;
+  font-size: 0.9em;
   padding: 1em 0;
   width: 35vw;
 }
@@ -42,13 +40,15 @@
   justify-content: flex-end;
   margin: 0.6em 0;
   width: 100%;
+  align-items: center;
+}
+#p-read-more {
+  margin-right: auto;
 }
 
 .p-links {
-  color: rgb(82, 77, 77);
-  font-family: "San Francisco";
   padding-left: 1em;
-  font-size: 0.8em;
+  font-size: 0.75em;
 }
 
 .p-github-link {
@@ -60,11 +60,20 @@
   margin: 1em 0;
 }
 
-.p-view-link {
-  font-size: 0.7em;
-  font-family: "Heebo", sans-serif;
-  border-bottom: 2px solid orange;
+#p-view-link {
+  font-weight: 800;
+  font-size: 0.8em;
+  color: black;
+  font-family: "Heebo";
 }
+.project-link {
+  height: 5px;
+  border: 1px solid red;
+}
+.project-arrow {
+  height: 15px;
+}
+
 .p-image {
   width: 45vw;
   height: 25vw;
@@ -73,12 +82,7 @@
   box-shadow: -9px 10px 11px -9px rgba(219, 219, 219, 1);
   z-index: 1;
 }
-.more-info a {
-  text-transform: uppercase;
-  font-size: 0.8em;
-  font-family: "San Francisco";
-  color: rgb(1, 129, 233);
-}
+
 .more-info {
   margin: 1.5em 0 0 0;
 }
@@ -96,7 +100,6 @@
     z-index: 1;
   }
   .p-para {
-    color: rgb(82, 82, 82);
     width: 100%;
     z-index: 3;
   }

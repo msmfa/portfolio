@@ -11,11 +11,7 @@ function ProjectSection(props) {
 
   return (
     <>
-      <div
-        key={uuidv4()}
-        style={{ flexDirection: `${props.flex}` }}
-        className="p-container"
-      >
+      <div key={uuidv4()} className="p-container">
         <img
           key={uuidv4()}
           className="p-image"

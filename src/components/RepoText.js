@@ -1,6 +1,7 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
 import { timeSince } from "./timeSince";
+import { GreenArrow } from "./GreenArrow";
 // import ExternalLink from "./IMG/sign.png";
 
 export function RepoText(props) {
@@ -8,7 +9,7 @@ export function RepoText(props) {
     <div className="repo" key={uuidv4()}>
       <div className="repo-flex">
         <li className="repo-title" key={uuidv4()}>
-          {item.name}
+          {item.name} <GreenArrow />
         </li>
         <li>
           {" "}
@@ -29,17 +30,6 @@ export function RepoText(props) {
       <li className="repo-description" key={uuidv4()}>
         {item.description}
       </li>
-      <li className="github-link" key={uuidv4()}>
-        <a
-          key={uuidv4()}
-          href={item.html_url}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github
-        </a>
-      </li>
-
       <li className="updated-link" key={uuidv4()}>
         Updated {timeSince(new Date(item.updated_at))}
       </li>

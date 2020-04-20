@@ -10,78 +10,57 @@
   width: 60vw;
 }
 
-.repo:nth-child(2) {
-  border: 1px solid red;
-}
-
 /* --------------------------- TEXT ---------------------------*/
 
 .more-title {
   border-bottom: 1px solid rgb(218, 218, 218);
-  font-family: "Inter", sans-serif;
-  font-weight: 200;
-  font-size: 1em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
   padding-top: 10vh;
   margin-bottom: 1em;
   width: 30vw;
+  color: #116149;
+  text-transform: uppercase;
+  font-family: "Inter";
+  letter-spacing: 0.1em;
 }
 
 .more-subtitle {
-  color: grey;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1em;
-  font-family: "San-Francisco", sans-serif;
-  font-weight: 300;
   margin-bottom: 3em;
   width: 60vw;
+  font-weight: 200;
 }
 
 .repo-title {
-  font-family: "San-Francisco", sans-serif;
-  color: rgb(82, 77, 77);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
 }
 
 .repo-description {
-  color: #7d7f81;
-  font-family: "San-Francisco", sans-serif;
-}
-
-.github-link a {
-  color: rgb(1, 129, 233);
-  font-size: 0.8em;
-  font-family: "San Francisco";
-  text-transform: uppercase;
+  margin-bottom: 0.3em;
 }
 
 .updated-link {
-  color: grey;
   margin: 0.4em 0;
-  font-family: "Inter", sans-serif;
   font-size: 0.7em;
+  color: grey;
 }
 
 .expand-button {
   background-color: white;
   border: none;
-  color: orange;
+  color: rgb(11, 168, 11);
   font-size: 1.5em;
 }
 .repo-external-link {
   height: 15px;
 }
 
-a {
-  text-decoration: underline solid transparent;
-  transition: 1s ease;
-}
-a:hover {
-  text-decoration: underline;
-}
 .external-link {
   height: 18px;
 }

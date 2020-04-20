@@ -5,10 +5,9 @@ body {
 .nav-container ul {
   display: flex;
   font-family: "Roboto Mono", monospace;
-  font-size: 0.7em;
+  font-size: 0.8em;
   justify-content: space-evenly;
   margin-left: auto;
   padding: 1em 0;
   width: 300px;
-  letter-spacing: 0.2em;
 }

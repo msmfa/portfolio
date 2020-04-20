@@ -7,3 +7,35 @@
 html {
   scroll-behavior: smooth;
 }
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+
+a {
+  color: rgb(3, 109, 3);
+  font-weight: bold;
+}
