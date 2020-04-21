@@ -1,37 +1,37 @@
 .line {
-  width: 1px;
   background-color: rgb(129, 129, 129);
-  margin-left: 0.63em;
-  height: 100px;
-  position: fixed;
   bottom: 0;
+  height: 100px;
+  margin-left: 0.63em;
+  position: fixed;
+  width: 1px;
 }
 
 .icon {
-  width: 20px;
+  bottom: 7em;
   height: 20px;
   position: fixed;
-  bottom: 7em;
+  width: 20px;
 }
 
 .github:hover {
-  width: 23px;
   height: 23px;
+  width: 23px;
 }
 
 @media only screen and (max-width: 800px) {
   .icon {
-    width: 20px;
+    bottom: 2em;
     height: 20px;
     position: fixed;
-    bottom: 2em;
+    width: 20px;
   }
   .line {
-    width: 1px;
+    bottom: 0;
+    height: 26px;
     background-color: rgb(129, 129, 129);
     margin-left: 0.63em;
-    height: 26px;
     position: fixed;
-    bottom: 0;
+    width: 1px;
   }
 }

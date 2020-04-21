@@ -2,22 +2,22 @@
 
 .more-title {
   border-bottom: 1px solid rgb(218, 218, 218);
-  padding-top: 10vh;
-  margin-bottom: 1em;
-  width: 30vw;
   color: #116149;
-  text-transform: uppercase;
-  font-family: "Inter";
   letter-spacing: 0.1em;
+  font-family: "Inter";
+  margin-bottom: 1em;
+  padding-top: 10vh;
+  text-transform: uppercase;
+  width: 30vw;
 }
 
 .more-subtitle {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  font-weight: 200;
   margin-bottom: 3em;
   width: 60vw;
-  font-weight: 200;
 }
 
 /* --------------------------- REPO DISPLAY ---------------------------*/
@@ -35,11 +35,11 @@
 }
 
 .repo-title {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  text-transform: uppercase;
   font-weight: bold;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -48,9 +48,9 @@
 }
 
 .updated-link {
+  color: grey;
   margin: 0.4em 0;
   font-size: 0.7em;
-  color: grey;
 }
 
 .expand-button {

@@ -5,7 +5,6 @@ html {
 * {
   list-style-type: none;
   text-decoration: none;
-  color: black;
 }
 
 body {
@@ -26,9 +25,9 @@ a {
 
 .project-arrow {
   height: 15px;
-  width: 40px;
   transition: height 0.4s;
   transition: width 0.7s;
+  width: 40px;
 }
 
 .project-arrow:hover {

@@ -39,6 +39,6 @@ export const projectThree = [
     moreInfo: "https://github.com/msmfa/sorting-visualiser",
     viewLink: "https://sort-vis.netlify.com//",
     githubLink: "https://github.com/msmfa/sorting-visualiser",
-    image: "sort",
+    image: "sort-sc",
   },
 ];

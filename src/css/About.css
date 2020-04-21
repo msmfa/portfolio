@@ -4,16 +4,16 @@
 
 #about-container {
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
-  width: 50vw;
-  height: 100vh;
   margin-left: 8em;
+  width: 50vw;
 }
 
 .about-text h3 {
-  margin-bottom: 2em;
   font-weight: 300;
+  margin-bottom: 2em;
 }
 
 .about-text a {
@@ -27,7 +27,7 @@
 
 @media only screen and (max-width: 800px) {
   #about-container {
-    width: 80vw;
     margin-left: 2em;
+    width: 80vw;
   }
 }
