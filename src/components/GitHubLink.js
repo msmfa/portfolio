@@ -1,6 +1,5 @@
 import React from "react";
 import GithubIcon from "./IMG/github-icon.png";
-import { ImageLink } from "./ImageLink";
 
 function Links() {
   return (
@@ -10,6 +9,19 @@ function Links() {
         <div className="line"></div>
       </li>
     </ul>
+  );
+}
+
+function ImageLink(props) {
+  return (
+    <a href={props.link} target="_blank" rel="noopener noreferrer">
+      <img
+        style={{ bottom: `${props.height}em` }}
+        className="icon"
+        src={props.img}
+        alt="icon"
+      ></img>
+    </a>
   );
 }
 

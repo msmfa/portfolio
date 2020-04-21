@@ -1,7 +1,7 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
-import { timeSince } from "./timeSince";
-import ExternalLink from "./IMG/arrow.jpg";
+import { timeSince } from "../timeSince";
+import ExternalLink from "../IMG/arrow.jpg";
 
 export function RepoText(props) {
   return props.display.map((repo) => (

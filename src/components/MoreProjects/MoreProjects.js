@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Axios from "axios";
 import { RepoText } from "./RepoText";
 import { Title } from "./Title";
-import { ExpandButton } from "./ExpandButton";
+import { ExpandButton } from "../ExpandButton";
 import { Subtitle } from "./Subtitle";
 
 function MoreProjects() {

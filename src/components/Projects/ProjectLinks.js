@@ -1,7 +1,7 @@
 import React from "react";
-import GithubIcon from "./IMG/github-icon.png";
+import GithubIcon from "../IMG/github-icon.png";
 import { v4 as uuidv4 } from "uuid";
-import { GreenArrow } from "./GreenArrow";
+import { GreenArrow } from "../GreenArrow";
 
 export function ProjectLinks(props) {
   return (

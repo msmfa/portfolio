@@ -10,11 +10,11 @@ import "./css/ContentHeaders.css";
 import "./css/MoreProjects.css";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
-import Links from "./components/Links";
+import GitHubLink from "./components/GitHubLink";
 import AboutSection from "./components/AboutSection";
-import ProjectSection from "./components/ProjectSection";
+import ProjectSection from "./components/Projects/ProjectSection";
 import { projectOne, projectTwo, projectThree } from "./projectData";
-import MoreProjects from "./components/MoreProjects";
+import MoreProjects from "./components/MoreProjects/MoreProjects";
 import ContentHeaders from "./components/ContentHeaders";
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
       <ProjectSection info={projectThree} />
       <ProjectSection info={projectTwo} />
       <MoreProjects />
-      <Links />
+      <GitHubLink />
     </>
   );
 }
