@@ -9,7 +9,7 @@ export const projectOne = [
   represent how many people are infected, cured and have died.`,
     techText: ["HTML & CSS", "React", "Axios", "Mathroid API"],
     moreInfo: "https://github.com/msmfa/corona-dashboard",
-    viewLink: "https://msmfa.github.io/corona-dashboard/",
+    viewLink: "https://covis.netlify.app/",
     githubLink: "https://github.com/msmfa/corona-dashboard",
     image: "corona-app-screenshot",
   },
