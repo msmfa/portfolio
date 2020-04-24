@@ -16,18 +16,20 @@ import ProjectSection from "./components/Projects/ProjectSection";
 import { projectOne, projectTwo, projectThree } from "./projectData";
 import MoreProjects from "./components/MoreProjects/MoreProjects";
 import ContentHeaders from "./components/ContentHeaders";
-
+import Fade from "react-reveal/Fade";
 function App() {
   return (
     <>
       <NavBar />
       <Header />
-      <AboutSection />
-      <ContentHeaders id="proj" text="Featured Projects" />
-      <ProjectSection info={projectOne} />
-      <ProjectSection info={projectThree} />
-      <ProjectSection info={projectTwo} />
-      <MoreProjects />
+      <Fade>
+        <AboutSection />
+        <ContentHeaders id="proj" text="Featured Projects" />
+        <ProjectSection info={projectOne} />
+        <ProjectSection info={projectThree} />
+        <ProjectSection info={projectTwo} />
+        <MoreProjects />
+      </Fade>
       <GitHubLink />
     </>
   );
