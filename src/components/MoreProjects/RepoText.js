@@ -16,11 +16,14 @@ export function RepoText(props) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img className="project-arrow" src={ExternalLink} alt=""></img>
+              <img
+                className="project-arrow"
+                src={ExternalLink}
+                alt="link-to-github-projects"
+              ></img>
             </a>
           }
         </li>
-        <li> </li>
       </div>
       <li className="repo-description" key={uuidv4()}>
         {repo.description}
