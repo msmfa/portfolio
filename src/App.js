@@ -17,6 +17,7 @@ import { projectOne, projectTwo, projectThree } from "./projectData";
 import MoreProjects from "./components/MoreProjects/MoreProjects";
 import ContentHeaders from "./components/ContentHeaders";
 import Fade from "react-reveal/Fade";
+
 function App() {
   return (
     <>

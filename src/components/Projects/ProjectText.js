@@ -16,9 +16,9 @@ export function ProjectText(props) {
       ))}
 
       {props.info.map((item) => (
-        <div key={uuidv4()} className="project-text">
+        <p key={uuidv4()} className="project-text">
           {item.para}
-        </div>
+        </p>
       ))}
     </>
   );
