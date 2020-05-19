@@ -12,14 +12,19 @@
 }
 
 .more-subtitle {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
   font-weight: 200;
   margin-bottom: 3em;
   width: 60vw;
 }
 
+.more-subtitle a {
+  text-decoration: underline solid transparent;
+  transition: text-decoration 1s ease;
+}
+
+.more-subtitle a:hover {
+  text-decoration: underline solid Currentcolor;
+}
 /* --------------------------- REPO DISPLAY ---------------------------*/
 
 .repo-container {
