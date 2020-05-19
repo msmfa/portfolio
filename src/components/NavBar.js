@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../UTILS/CV-2020.pdf";
+import CV from "../UTILS/CV-2020-dev.pdf";
 
 function NavBar() {
   return (
