@@ -1,4 +1,5 @@
 import React from "react";
+import CV from "../UTILS/CV-2020.pdf";
 
 function NavBar() {
   return (
@@ -21,7 +22,9 @@ function NavBar() {
             </a>
           </li>
           <li>
-            <a href="#about">CV</a>
+            <a href={CV} target="_blank" rel="noopener noreferrer">
+              CV
+            </a>
           </li>
         </ul>
       </div>
